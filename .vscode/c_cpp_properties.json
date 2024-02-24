@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "includePath": [
+                "/opt/homebrew/Cellar/sdl2/2.30.0/include/SDL2",
+                "/opt/homebrew/Cellar/sdl2_image/2.8.2/include/SDL2"
+            ],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "intelliSenseMode": "macos-clang-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

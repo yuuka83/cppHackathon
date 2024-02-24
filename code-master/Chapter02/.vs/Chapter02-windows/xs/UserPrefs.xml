@@ -1,0 +1,33 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ship.cpp">
+    <Files>
+      <File FileName="Actor.cpp" Line="1" Column="1" />
+      <File FileName="Actor.h" Line="19" Column="6" />
+      <File FileName="Component.h" Line="1" Column="1" />
+      <File FileName="Math.h" Line="116" Column="2" />
+      <File FileName="Math.cpp" Line="22" Column="34" />
+      <File FileName="Game.h" Line="32" Column="20" />
+      <File FileName="Game.cpp" Line="168" Column="10" />
+      <File FileName="Component.cpp" Line="1" Column="1" />
+      <File FileName="Ship.cpp" Line="1" Column="1" />
+      <File FileName="Ship.h" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Chapter02-windows" expanded="True">
+            <Node name="Game" expanded="True">
+              <Node name="SpriteComponent.cpp" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|Win32" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -9,7 +9,7 @@
 Actor::Actor(Game *game)
     : mState(EActive), mPosition(Vector2::Zero), mScale(1.0f), mRotation(0.0f), mGame(game)
 {
-    // 自身を追加
+    // インスタンス化された際に自身を追加
     mGame->AddActor(this);
 }
 

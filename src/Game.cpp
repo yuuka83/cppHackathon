@@ -23,12 +23,12 @@ bool Game::Initialize()
         return false;
     }
     mWindow = SDL_CreateWindow(
-        "2DGame", // ウィンドウのタイトル
-        100,      // ウィンドウの左上隅のx座標
-        100,      // ウィンドウ左上すみのy座標
-        1024,     // ウィンドウの幅
-        768,      // ウィンドウの高さ
-        0         // フラグ
+        "2DGame",      // ウィンドウのタイトル
+        100,           // ウィンドウの左上隅のx座標
+        100,           // ウィンドウ左上すみのy座標
+        SCREEN_WIDTH,  // ウィンドウの幅
+        SCREEN_HEIGHT, // ウィンドウの高さ
+        0              // フラグ
     );
 
     if (!mWindow)
@@ -131,7 +131,11 @@ void Game::ProcessInput()
     {
         mIsRunning = false;
     }
-    mShip->ProcessKeyboard(state);
+    // マウスイベント
+    SDL_Point window_size = {SCREEN_WIDTH, SCREEN_HEIGHT};
+    SDL_Point mouse_position = {0, 0};
+
+    mShip->ProcessInput(state, mouse_position);
 }
 void Game::UpdateGame()
 {

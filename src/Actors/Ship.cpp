@@ -1,10 +1,11 @@
+#include <SDL.h>
 #include "Ship.h"
 #include "../Components/AnimSpriteComponent.h"
 #include "../Game.h"
 #include <iostream>
 
 Ship::Ship(Game *game)
-    : Actor(game), mRightSpeed(0.0f), mDownSpeed(0.0f)
+    : Actor(game), mPosx(0.0f), mPosy(0.0f) /*, mRightSpeed(0.0f), mDownSpeed(0.0f)*/
 {
     AnimSpriteComponent *asc = new AnimSpriteComponent(this);
     std::vector<SDL_Texture *> anims = {
@@ -20,6 +21,7 @@ void Ship::UpdateActor(float deltaTime)
 {
     Actor::UpdateActor(deltaTime);
     Vector2 pos = GetPosition();
+    /*
     pos.x += mRightSpeed * deltaTime;
     pos.y += mDownSpeed * deltaTime;
 
@@ -38,12 +40,16 @@ void Ship::UpdateActor(float deltaTime)
     else if (pos.y > 743.0f)
     {
         pos.y = 743.0f;
-    }
+    }*/
+    pos.x = mPosx;
+    pos.y = mPosy;
     SetPosition(pos);
 }
 
-void Ship::ProcessKeyboard(const uint8_t *state)
+void Ship::ProcessInput(const uint8_t *state, SDL_Point mouse_position)
 {
+
+    /*
     mRightSpeed = 0.0f;
     mDownSpeed = 0.0f;
     if (state[SDL_SCANCODE_D])
@@ -61,5 +67,9 @@ void Ship::ProcessKeyboard(const uint8_t *state)
     if (state[SDL_SCANCODE_W])
     {
         mDownSpeed -= 300.0f;
-    }
+    }*/
+    // マウスイベント
+    SDL_GetMouseState(&mouse_position.x, &mouse_position.y);
+    mPosx = mouse_position.x;
+    mPosy = mouse_position.y;
 }

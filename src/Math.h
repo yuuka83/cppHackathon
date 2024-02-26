@@ -109,6 +109,13 @@ namespace Math
     {
         return fmod(numer, denom);
     }
+    // 指定した小数点以下の桁数で数値を丸める関数
+    inline float roundToDecimalPlace(float value, int places)
+    {
+        // スケーリングファクター
+        float scale = std::pow(10.0, places);
+        return std::round(value * scale) / scale;
+    }
 }
 
 // 2D Vector

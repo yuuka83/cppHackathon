@@ -1,0 +1,112 @@
+@startuml
+package Actor{
+    class Actor {
+    + Actor(class Game *game);
+    + virtual ~Actor();
+    + void Update(float deltaTime);
+    + void UpdateComponents(float deltaTime);
+    + virtual void UpdateActor(float deltaTime);
+    + void AddComponent(class Component *component);
+    + void RemoveComponent(class Component *component);
+    --
+    + const Vector2 &GetPosition()
+    + void SetPosition(const Vector2 &pos)
+    + float GetScale()
+    + void SetScale(float scale)
+    + float GetRotation() 
+    + void SetRotation(float rotation) 
+    + State GetState() 
+    + void SetState(State state)
+    + class Game *GetGame()
+    -- 
+    - State mState;
+    - Vector2 mPosition;
+    - float mScale;     
+    - float mRotation;
+    - std::vector<class Component *> mComponents;
+    - class Game *mGame;
+    
+    }
+    class Ship {
+        + Ship(class Game *game);
+        + void UpdateActor(float deltaTime) override;
+        + void ProcessKeyboard(const uint8_t *state);
+        + float GetRightSpeed()
+        + float GetDownSpeed()
+        - float mRightSpeed;
+        - float mDownSpeed;       
+    }
+}
+
+package Component{
+    class Component{
+        + Component(class Actor *owner, int updateOrder = 100);
+        + virtual ~Component();
+        + virtual void Update(float deltaTime);
+        + int getUpdateOrder()
+        - Actor *mOwner;
+        - int mUpdateOrder;
+    }
+    class SpriteComponent {
+        + SpriteComponent(class Actor *owner, int drawOrder = 100);
+        + ~SpriteComponent();
+        + virtual void Draw(SDL_Renderer *renderer);
+        + virtual void SetTexture(SDL_Texture *texture);
+        + int GetDrawOrder() 
+        + int GetTexHeight() 
+        + int GetTexWidth() 
+        - SDL_Texture *mTexture;
+        - int mDrawOrder;
+        - int mTexWidth;
+        - int mTexHeight;
+    }
+    class AnimSpriteComponent {
+        + AnimSpriteComponent(class Actor *owner, int drawOrder = 100);
+        + void Update(float deltaTime) override;
+        + void SetAnimTextures(const std::vector<SDL_Texture *> &textures);
+        + float GetAnimFPS()
+        + void SetAnimFPS(float fps)
+        - std::vector<SDL_Texture *> mAnimTextures;
+        - float mCurrentFrame;
+        - float mAnimFPS;
+    }
+}
+
+class Game{
+    - std::unordered_map<std::string, SDL_Texture *> mTextures;
+    - Uint32 mTicksCount;
+    - SDL_Window *mWindow;
+    - SDL_Renderer *mRenderer;
+    - bool mIsRunning;
+    - std::vector<class Actor *> mActors;
+    - std::vector<class Actor *> mPendingActors;
+    - std::vector<class SpriteComponent *> mSprites;
+    - bool mUpdatingActors;
+    - Ship *mShip;
+    - const std::string AssetsPath;
+    --
+    - ProcessInput();
+    - UpdateGame();
+    - GenerateOutput();
+    - LoadData();
+    - UnloadData();
+    + Game();
+    + bool Initialize();
+    + void RunLoop();
+    + void Shutdown();
+    + void AddActor(class Actor *actor);
+    + void RemoveActor(class Actor *actor);
+    + void AddSprite(class SpriteComponent *sprite);
+    + void RemoveSprite(class SpriteComponent *sprite);
+    + SDL_Texture *GetTexture(const std::string &fileName);
+    + std::string GetAssetsPath() const { return AssetsPath; }
+    }
+
+class Math{
+    }   
+Actor <|-- Ship
+Component <|-- SpriteComponent
+SpriteComponent <|-- AnimSpriteComponent
+Ship o-- AnimSpriteComponent
+Game o-- Ship
+@enduml

@@ -1,3 +1,4 @@
+#pragma once
 #include "ColliderComponent.h"
 #include "../Actors/Actor.h"
 #include <iostream>
@@ -7,19 +8,28 @@ ColliderComponent::ColliderComponent(Actor *owner, float width, float height)
     : Component(owner, 10), mWidth(width), mHeight(height)
 {
 }
+ColliderComponent::~ColliderComponent()
+{
+}
+
 // 中心位置を返す
 const Vector2 &ColliderComponent::GetCenterPosition() const
 {
     return mOwner->GetPosition();
 }
 
-bool ColliderComponent::IsColliding(ColliderComponent &a, ColliderComponent &b)
+bool IsColliding(ColliderComponent &a, ColliderComponent &b)
 {
+    float aLeft = a.GetCenterPosition().x - a.GetWidth() / 2;
+    float aRight = a.GetCenterPosition().x + a.GetWidth() / 2;
+    float bLeft = b.GetCenterPosition().x - b.GetWidth() / 2;
+    float bRight = b.GetCenterPosition().x + b.GetWidth() / 2;
+    float aTop = a.GetCenterPosition().y - a.GetHeight() / 2;
+    float aBottom = a.GetCenterPosition().y + a.GetHeight() / 2;
+    float bTop = b.GetCenterPosition().y - b.GetHeight() / 2;
+    float bBottom = b.GetCenterPosition().y + b.GetHeight() / 2;
     // x軸とy軸で重なりがあるかチェック
-    // aの左線の座標がbの左線の座標よりも小さいかつaの右線の座標がbの右線の座標よりも大きい
-    bool overlapX = a.GetCenterPosition().x - a.mWidth / 2 < b.GetCenterPosition().x - b.mWidth / 2 &&
-                    a.GetCenterPosition().x + a.mWidth / 2 > b.GetCenterPosition().x + b.mWidth / 2;
-    bool overlapY = a.GetCenterPosition().y - a.mHeight / 2 < b.GetCenterPosition().y - b.mHeight / 2 &&
-                    a.GetCenterPosition().y + a.mHeight / 2 > b.GetCenterPosition().y + b.mHeight / 2;
+    bool overlapX = aRight > bLeft && aLeft < bRight;
+    bool overlapY = aBottom > bTop && aTop < bBottom;
     return overlapX && overlapY;
 }

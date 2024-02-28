@@ -1,3 +1,4 @@
+#pragma once
 #include "Component.h"
 #include "../Math.h"
 // ボックスコライダー
@@ -7,8 +8,13 @@ public:
     ColliderComponent(Actor *owner, float width, float height);
     ~ColliderComponent();
     const Vector2 &GetCenterPosition() const;
-    bool IsColliding(ColliderComponent &a, ColliderComponent &b);
 
 private:
     float mWidth, mHeight;
+
+public:
+    float GetWidth() { return mWidth; }
+    float GetHeight() { return mHeight; }
 };
+
+bool IsColliding(ColliderComponent &a, ColliderComponent &b);

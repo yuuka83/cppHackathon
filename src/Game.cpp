@@ -1,9 +1,13 @@
+#pragma once
 #include "Game.h"
-#include "Actors/Actor.h"
 #include <iostream>
 #include "SDL_image.h"
 #include "./Components/SpriteComponent.h"
-#include "./Actors/Ship.h"
+#include "./Actors/Player.h"
+#include "./Actors/GuardWall.h"
+#include "./Actors/Enemy.h"
+#include "./Scenes/GameScene.h"
+#include "./Scenes/ReadyScene.h"
 
 const int thickness = 15;
 const float paddleH = 100.0f;
@@ -15,7 +19,6 @@ Game::Game()
 
 bool Game::Initialize()
 {
-    // std::cout << "実行" << std::endl;
     int sdlResult = SDL_Init(SDL_INIT_VIDEO);
     if (sdlResult != 0)
     {
@@ -61,11 +64,20 @@ bool Game::Initialize()
 
 void Game::RunLoop()
 {
+    mScene = new ReadyScene(this);
+    mNextScene = mScene;
+    StartScene();
     while (mIsRunning)
     {
-        ProcessInput();
-        UpdateGame();
-        GenerateOutput();
+        UpdateScene();
+        // シーン開始処理
+        // シーン開始処理
+        if (mScene->GetSceneName().compare(mNextScene->GetSceneName()) != 0)
+        {
+            delete mScene;
+            mScene = mNextScene;
+            StartScene();
+        }
     }
 }
 
@@ -114,6 +126,7 @@ void Game::Shutdown()
 
 void Game::ProcessInput()
 {
+    bool mouseDown = false;
     // SDLイベント
     SDL_Event event;
     while (SDL_PollEvent(&event))
@@ -122,6 +135,9 @@ void Game::ProcessInput()
         {
         case SDL_QUIT: // ウィンドウが閉じられた時
             mIsRunning = false;
+            break;
+        case SDL_MOUSEBUTTONDOWN:
+            mouseDown = true;
             break;
         }
     }
@@ -133,12 +149,18 @@ void Game::ProcessInput()
     }
     // マウスイベント
     SDL_Point window_size = {SCREEN_WIDTH, SCREEN_HEIGHT};
-    SDL_Point mouse_position = {0, 0};
-
-    mShip->ProcessInput(state, mouse_position);
+    // SDL_Point mouse_position = {0, 0};
+    mScene->ProcessInput(state, mouseDown);
+    // mShip->ProcessInput(state, mouseDown);
 }
-void Game::UpdateGame()
+
+void Game::StartScene()
 {
+    mScene->Start();
+}
+void Game::UpdateScene()
+{
+    ProcessInput();
     // 時間の更新
     // フレーム制限 フレーム間に必ず16ms経過するようにする
     while (!SDL_TICKS_PASSED(SDL_GetTicks(), mTicksCount + 16))
@@ -184,7 +206,12 @@ void Game::UpdateGame()
     {
         delete actor;
     }
+    // シーンの更新処理
+    mScene->Update(deltaTime);
+
+    GenerateOutput();
 }
+
 void Game::GenerateOutput()
 {
     SDL_SetRenderDrawColor(mRenderer, 0, 0, 0, 255);
@@ -201,12 +228,22 @@ void Game::GenerateOutput()
 // データをロードする
 void Game::LoadData()
 {
+    auto *bgBack = new Actor(this);
+    bgBack->SetPosition(Vector2(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2));
+    auto *bgBackSprite = new SpriteComponent(bgBack, 10);
+    bgBackSprite->SetTexture(GetTexture(GetAssetsPath() + "back.png"));
+    /*
     // 船を作る
     mShip = new Ship(this);
     mShip->SetPosition(Vector2(100.0f, 384.0f));
     mShip->SetScale(1.5f);
 
-    //
+    // 壁を作る
+    mGuardWall = new GuardWall(this);
+
+    // 体力ゲージを作る
+    mWallHpBar = new WallHpBar(this);
+    */
 }
 
 void Game::UnloadData()
@@ -279,4 +316,17 @@ void Game::RemoveSprite(SpriteComponent *sprite)
 {
     auto iter = std::find(mSprites.begin(), mSprites.end(), sprite);
     mSprites.erase(iter);
+}
+
+void Game::AddEnemy(Enemy *enemy)
+{
+    mEnemies.emplace_back(enemy);
+}
+void Game::RemoveEnemy(Enemy *enemy)
+{
+    auto iter = std::find(mEnemies.begin(), mEnemies.end(), enemy);
+    if (iter != mEnemies.end())
+    {
+        mEnemies.erase(iter);
+    }
 }

@@ -3,8 +3,13 @@
 #include <unordered_map>
 #include <string>
 #include <vector>
+#include <iostream>
 #include "Math.h"
-
+#include "./Actors/Actor.h"
+#include "./Scenes/Scene.h"
+#include "./Actors/GuardWall.h"
+#include "./Actors/WallHpBar.h"
+#include "./Actors/Player.h"
 const int SCREEN_WIDTH = 640;
 const int SCREEN_HEIGHT = 480;
 
@@ -29,10 +34,14 @@ public:
 
     SDL_Texture *GetTexture(const std::string &fileName);
     std::string GetAssetsPath() const { return AssetsPath; }
+    void AddEnemy(class Enemy *enemy);
+    void RemoveEnemy(class Enemy *enemy);
 
 private:
     void ProcessInput();
-    void UpdateGame();
+    // void UpdateGame();
+    void StartScene();
+    void UpdateScene();
     void GenerateOutput();
     void LoadData();
     void UnloadData();
@@ -56,8 +65,38 @@ private:
     // アクターを更新中の時true
     bool mUpdatingActors;
 
-    class Ship *mShip; // プレイヤーの船
+    // ゲームクリアかのフラグ
+    bool mIsClear;
+    // 現在のシーン
+    Scene *mScene;
+    // 次のシーン
+    Scene *mNextScene;
+    class Player *mShip;                 // プレイヤーの船
+    class GuardWall *mGuardWall;         // プレイヤーを守る壁
+    std::vector<class Enemy *> mEnemies; // エネミー
+    class WallHpBar *mWallHpBar;
+    class PlayerObj *mPlayer;
 
     // 画像パス
     const std::string AssetsPath = "./Assets/";
+
+public:
+    Scene *GetNextScene() const { return mNextScene; }
+    void SetNextScene(class Scene *scene)
+    {
+        mNextScene = scene;
+    }
+    Scene *GetScene() const { return mScene; }
+    void SetScene(class Scene *scene) { mScene = scene; }
+    bool GetIsClear() { return mIsClear; }
+    void SetIsClear(bool clear) { mIsClear = clear; }
+    std::vector<class Enemy *> GetEnemies() { return mEnemies; }
+    void SetPlayer(Player *tmpPlayer) { mShip = tmpPlayer; }
+    void SetWall(GuardWall *tmpWall) { mGuardWall = tmpWall; }
+    void SetWallHp(WallHpBar *tmpWallHpBar) { mWallHpBar = tmpWallHpBar; }
+    Player *GetPlayer() { return mShip; }
+    GuardWall *GetWall() { return mGuardWall; }
+    WallHpBar *GetWallHpBar() { return mWallHpBar; }
+    PlayerObj *GetPlayerObj() { return mPlayer; }
+    void SetPlayerObj(PlayerObj *tmpPlayer) { mPlayer = tmpPlayer; }
 };

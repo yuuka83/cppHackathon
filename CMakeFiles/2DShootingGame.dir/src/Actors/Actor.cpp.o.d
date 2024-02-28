@@ -825,7 +825,6 @@ CMakeFiles/2DShootingGame.dir/src/Actors/Actor.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ios/fpos.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
-  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/Component.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__locale \
@@ -856,4 +855,14 @@ CMakeFiles/2DShootingGame.dir/src/Actors/Actor.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/nl_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/.././Actors/Actor.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/.././Scenes/Scene.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/.././Actors/GuardWall.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/SpriteComponent.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/Component.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/ColliderComponent.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/../Math.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/.././Actors/WallHpBar.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/BarSpriteComponent.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/.././Actors/Player.h

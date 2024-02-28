@@ -1,3 +1,4 @@
+#pragma once
 #include "Component.h"
 #include "../Actors/Actor.h"
 #include "iostream"

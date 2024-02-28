@@ -1,3 +1,4 @@
+#pragma once
 #include "SpriteComponent.h"
 #include "../Actors/Actor.h"
 #include "../Game.h"

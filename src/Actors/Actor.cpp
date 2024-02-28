@@ -1,3 +1,4 @@
+#pragma once
 #include "Actor.h"
 #include <vector>
 #include "../Game.h"

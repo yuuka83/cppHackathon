@@ -822,10 +822,6 @@ CMakeFiles/2DShootingGame.dir/src/Game.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ios/fpos.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
-  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Math.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/memory.h \
-  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/Actor.h \
-  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__locale \
@@ -857,7 +853,25 @@ CMakeFiles/2DShootingGame.dir/src/Game.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/memory.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/Actor.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/../Math.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Scenes/Scene.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/GuardWall.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/../Components/SpriteComponent.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/../Components/Component.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/../Components/ColliderComponent.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/../Components/../Math.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/WallHpBar.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/../Components/BarSpriteComponent.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/Player.h \
   /opt/homebrew/Cellar/sdl2_image/2.8.2/include/SDL2/SDL_image.h \
   /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Components/SpriteComponent.h \
-  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Components/Component.h \
-  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/Ship.h
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/Enemy.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/../Components/AnimSpriteComponent.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Scenes/GameScene.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Scenes/ReadyScene.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Scenes/../Actors/Actor.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Scenes/../Actors/StartMessage.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/./Actors/../Actors/Actor.h

@@ -125,24 +125,108 @@ CMakeFiles/2DShootingGame.dir/src/Actors/Actor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Actors/Actor.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/Actor.cpp -o CMakeFiles/2DShootingGame.dir/src/Actors/Actor.cpp.s
 
-CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
-CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.o: src/Actors/Ship.cpp
-CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/Ship.cpp
+CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.o: src/Actors/Enemy.cpp
+CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/Enemy.cpp
 
-CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/Ship.cpp > CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.i
+CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/Enemy.cpp > CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.i
 
-CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/Ship.cpp -o CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.s
+CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/Enemy.cpp -o CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.s
+
+CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.o: src/Actors/GuardWall.cpp
+CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/GuardWall.cpp
+
+CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/GuardWall.cpp > CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.i
+
+CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/GuardWall.cpp -o CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.s
+
+CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.o: src/Actors/WallHpBar.cpp
+CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/WallHpBar.cpp
+
+CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/WallHpBar.cpp > CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.i
+
+CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/WallHpBar.cpp -o CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.s
+
+CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.o: src/Actors/StartMessage.cpp
+CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/StartMessage.cpp
+
+CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/StartMessage.cpp > CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.i
+
+CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/StartMessage.cpp -o CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.s
+
+CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.o: src/Actors/EndMessage.cpp
+CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/EndMessage.cpp
+
+CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/EndMessage.cpp > CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.i
+
+CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/EndMessage.cpp -o CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.s
+
+CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.o: src/Actors/Player.cpp
+CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/Player.cpp
+
+CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/Player.cpp > CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.i
+
+CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/Player.cpp -o CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.s
+
+CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.o: src/Actors/PlayerObj.cpp
+CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/PlayerObj.cpp
+
+CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/PlayerObj.cpp > CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.i
+
+CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/PlayerObj.cpp -o CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.s
 
 CMakeFiles/2DShootingGame.dir/src/Components/Component.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
 CMakeFiles/2DShootingGame.dir/src/Components/Component.cpp.o: src/Components/Component.cpp
 CMakeFiles/2DShootingGame.dir/src/Components/Component.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Components/Component.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Components/Component.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Components/Component.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Components/Component.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Components/Component.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Components/Component.cpp
 
 CMakeFiles/2DShootingGame.dir/src/Components/Component.cpp.i: cmake_force
@@ -156,7 +240,7 @@ CMakeFiles/2DShootingGame.dir/src/Components/Component.cpp.s: cmake_force
 CMakeFiles/2DShootingGame.dir/src/Components/SpriteComponent.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
 CMakeFiles/2DShootingGame.dir/src/Components/SpriteComponent.cpp.o: src/Components/SpriteComponent.cpp
 CMakeFiles/2DShootingGame.dir/src/Components/SpriteComponent.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Components/SpriteComponent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Components/SpriteComponent.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Components/SpriteComponent.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Components/SpriteComponent.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Components/SpriteComponent.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Components/SpriteComponent.cpp
 
 CMakeFiles/2DShootingGame.dir/src/Components/SpriteComponent.cpp.i: cmake_force
@@ -170,7 +254,7 @@ CMakeFiles/2DShootingGame.dir/src/Components/SpriteComponent.cpp.s: cmake_force
 CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
 CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.o: src/Components/AnimSpriteCompoment.cpp
 CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Components/AnimSpriteCompoment.cpp
 
 CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.i: cmake_force
@@ -181,16 +265,112 @@ CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Components/AnimSpriteCompoment.cpp -o CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.s
 
+CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.o: src/Components/BarSpriteComponent.cpp
+CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Components/BarSpriteComponent.cpp
+
+CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Components/BarSpriteComponent.cpp > CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.i
+
+CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Components/BarSpriteComponent.cpp -o CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.s
+
+CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.o: src/Components/ColliderComponent.cpp
+CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Components/ColliderComponent.cpp
+
+CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Components/ColliderComponent.cpp > CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.i
+
+CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Components/ColliderComponent.cpp -o CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.s
+
+CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.o: src/Scenes/Scene.cpp
+CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Scenes/Scene.cpp
+
+CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Scenes/Scene.cpp > CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.i
+
+CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Scenes/Scene.cpp -o CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.s
+
+CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.o: src/Scenes/GameScene.cpp
+CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Scenes/GameScene.cpp
+
+CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Scenes/GameScene.cpp > CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.i
+
+CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Scenes/GameScene.cpp -o CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.s
+
+CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.o: src/Scenes/ReadyScene.cpp
+CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Scenes/ReadyScene.cpp
+
+CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Scenes/ReadyScene.cpp > CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.i
+
+CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Scenes/ReadyScene.cpp -o CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.s
+
+CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.o: CMakeFiles/2DShootingGame.dir/flags.make
+CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.o: src/Scenes/EndScene.cpp
+CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.o: CMakeFiles/2DShootingGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.o -MF CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.o.d -o CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.o -c /Users/inoueyuka/Documents/Document/CPPHackathon/src/Scenes/EndScene.cpp
+
+CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/inoueyuka/Documents/Document/CPPHackathon/src/Scenes/EndScene.cpp > CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.i
+
+CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/inoueyuka/Documents/Document/CPPHackathon/src/Scenes/EndScene.cpp -o CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.s
+
 # Object files for target 2DShootingGame
 2DShootingGame_OBJECTS = \
 "CMakeFiles/2DShootingGame.dir/src/main.cpp.o" \
 "CMakeFiles/2DShootingGame.dir/src/Game.cpp.o" \
 "CMakeFiles/2DShootingGame.dir/src/Math.cpp.o" \
 "CMakeFiles/2DShootingGame.dir/src/Actors/Actor.cpp.o" \
-"CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.o" \
 "CMakeFiles/2DShootingGame.dir/src/Components/Component.cpp.o" \
 "CMakeFiles/2DShootingGame.dir/src/Components/SpriteComponent.cpp.o" \
-"CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.o"
+"CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.o" \
+"CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.o"
 
 # External object files for target 2DShootingGame
 2DShootingGame_EXTERNAL_OBJECTS =
@@ -199,15 +379,27 @@ CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.s: cmake_fo
 2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Game.cpp.o
 2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Math.cpp.o
 2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Actors/Actor.cpp.o
-2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Actors/Enemy.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Actors/GuardWall.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Actors/WallHpBar.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Actors/StartMessage.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Actors/EndMessage.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Actors/Player.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Actors/PlayerObj.cpp.o
 2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Components/Component.cpp.o
 2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Components/SpriteComponent.cpp.o
 2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Components/AnimSpriteCompoment.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Components/BarSpriteComponent.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Components/ColliderComponent.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Scenes/Scene.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Scenes/GameScene.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Scenes/ReadyScene.cpp.o
+2DShootingGame: CMakeFiles/2DShootingGame.dir/src/Scenes/EndScene.cpp.o
 2DShootingGame: CMakeFiles/2DShootingGame.dir/build.make
 2DShootingGame: /opt/homebrew/Cellar/sdl2/2.30.0/lib/libSDL2-2.0.0.dylib
 2DShootingGame: /opt/homebrew/Cellar/sdl2_image/2.8.2/lib/libSDL2_image-2.0.0.dylib
 2DShootingGame: CMakeFiles/2DShootingGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable 2DShootingGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable 2DShootingGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/2DShootingGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

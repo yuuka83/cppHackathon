@@ -81,12 +81,12 @@ clean: CMakeFiles/2DShootingGame.dir/clean
 CMakeFiles/2DShootingGame.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2DShootingGame.dir/build.make CMakeFiles/2DShootingGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2DShootingGame.dir/build.make CMakeFiles/2DShootingGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target 2DShootingGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target 2DShootingGame"
 .PHONY : CMakeFiles/2DShootingGame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2DShootingGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2DShootingGame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/inoueyuka/Documents/Document/CPPHackathon/CMakeFiles 0
 .PHONY : CMakeFiles/2DShootingGame.dir/rule

@@ -822,9 +822,12 @@ CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/literals.h \
   /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/memory.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/ColliderComponent.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/Component.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/../Math.h \
   /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/AnimSpriteComponent.h \
   /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/SpriteComponent.h \
-  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/Component.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/Enemy.h \
   /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Game.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ios/fpos.h \
@@ -859,4 +862,10 @@ CMakeFiles/2DShootingGame.dir/src/Actors/Ship.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/nl_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/.././Actors/Actor.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/.././Scenes/Scene.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/.././Actors/GuardWall.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/.././Actors/WallHpBar.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/../Components/BarSpriteComponent.h \
+  /Users/inoueyuka/Documents/Document/CPPHackathon/src/Actors/.././Actors/Player.h

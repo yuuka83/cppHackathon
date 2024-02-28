@@ -1,3 +1,4 @@
+#pragma once
 #include "AnimSpriteComponent.h"
 #include "../Math.h"
 #include <iostream>

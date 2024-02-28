@@ -1,3 +1,4 @@
+#pragma once
 #include "SpriteComponent.h"
 #include <vector>
 class AnimSpriteComponent : public SpriteComponent
